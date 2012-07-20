@@ -19,7 +19,6 @@
 [submodule "home/.vim/bundle/powerline"]
 	path = home/.vim/bundle/powerline
     url = http://github.com/Lokaltog/vim-powerline
-
-[submodule "home/vim/bundle/numbers"]
-	path = home/vim/bundle/numbers
+[submodule "home/.vim/bundle/numbers"]
+	path = home/.vim/bundle/numbers
 	url = http://github.com/myusuf3/numbers.vim.git
