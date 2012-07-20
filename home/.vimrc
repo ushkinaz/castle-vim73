@@ -49,6 +49,13 @@ set incsearch                       " incremental searching
 set ignorecase                      " searches are case insensitive...
 set smartcase                       " ... unless they contain at least one capital letter
 
+"" Mappings
+nmap <F8> :TagbarToggle<CR>         " mapping f8 to TagbarToggle
+nmap <F2> :NERDTreeToggle<CR>       " mapping f2 to NERDTreeToggle
+nmap <F3> :NumbersToggle<CR>        " mapping f3 to NumbersToggle
+noremap <F5> :GundoToggle<CR>       " mapping f5 to Gundo
+noremap <F9> :Gcommit<CR>           " mapping f9 to Gcommit
+
 map <S-tab> :tabprevious<cr>
 nmap <S-tab> :tabprevious<cr>
 imap <S-tab> <ESC>:tabprevious<cr>i
@@ -61,6 +68,11 @@ imap <C-t> <ESC>:tabnew<cr>
 let g:solarized_termtrans = 1  " Solarized transparency
 set background=dark
 colorscheme solarized          " Theme
+
+"SWAGG
+set relativenumber                           " setting line numbers
+set colorcolumn=120                           " line to show 81 character mark
+set cursorline                               " shows the horizontal cursor line
 
 "Badass Functions
 function! OpenChangedFiles()
