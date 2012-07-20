@@ -69,6 +69,10 @@ let g:solarized_termtrans = 1  " Solarized transparency
 set background=dark
 colorscheme solarized          " Theme
 
+" Powerline
+set laststatus=2
+let g:Powerline_symbols = 'unicode'
+
 "SWAGG
 set relativenumber                           " setting line numbers
 set colorcolumn=120                           " line to show 81 character mark
