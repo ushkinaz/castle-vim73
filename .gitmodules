@@ -22,3 +22,6 @@
 [submodule "home/.vim/bundle/numbers"]
 	path = home/.vim/bundle/numbers
 	url = http://github.com/myusuf3/numbers.vim.git
+[submodule "home/.vim/bundle/vim-gitgutter"]
+	path = home/.vim/bundle/vim-gitgutter
+	url = git://github.com/airblade/vim-gitgutter.git

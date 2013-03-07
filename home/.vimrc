@@ -52,7 +52,7 @@ set smartcase                       " ... unless they contain at least one capit
 "" Mappings
 nmap <F8> :TagbarToggle<CR>         " mapping f8 to TagbarToggle
 nmap <F2> :NERDTreeToggle<CR>       " mapping f2 to NERDTreeToggle
-nmap <F3> :NumbersToggle<CR>        " mapping f3 to NumbersToggle
+""nmap <F3> :NumbersToggle<CR>        " mapping f3 to NumbersToggle
 noremap <F5> :GundoToggle<CR>       " mapping f5 to Gundo
 noremap <F9> :Gcommit<CR>           " mapping f9 to Gcommit
 
@@ -74,7 +74,7 @@ set laststatus=2
 let g:Powerline_symbols = 'unicode'
 
 "SWAGG
-set relativenumber                           " setting line numbers
+"set relativenumber                           " setting line numbers
 set colorcolumn=120                           " line to show 81 character mark
 set cursorline                               " shows the horizontal cursor line
 
