@@ -25,3 +25,6 @@
 [submodule "home/.vim/bundle/vim-gitgutter"]
 	path = home/.vim/bundle/vim-gitgutter
 	url = git://github.com/airblade/vim-gitgutter.git
+[submodule "home/.vim/bundle/nginx"]
+	path = home/.vim/bundle/nginx
+	url = git://github.com/thiderman/nginx-vim-syntax.git
