@@ -22,3 +22,6 @@
 [submodule "home/.vim/bundle/numbers"]
 	path = home/.vim/bundle/numbers
 	url = http://github.com/myusuf3/numbers.vim.git
+[submodule "home/.vim/bundle/vim-gradle"]
+	path = home/.vim/bundle/vim-gradle
+	url = https://github.com/tfnico/vim-gradle.git
