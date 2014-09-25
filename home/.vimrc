@@ -1,5 +1,5 @@
-call pathogen#runtime_append_all_bundles()  " adding pathogen to vimrc
-call pathogen#helptags()
+execute pathogen#infect()
+"" call pathogen#helptags()
 
 
 syntax on            
