@@ -25,3 +25,6 @@
 [submodule "home/.vim/bundle/vim-gradle"]
 	path = home/.vim/bundle/vim-gradle
 	url = https://github.com/tfnico/vim-gradle.git
+[submodule "home/.vim/bundle/vim-gitgutter"]
+	path = home/.vim/bundle/vim-gitgutter
+	url = git://github.com/airblade/vim-gitgutter.git
