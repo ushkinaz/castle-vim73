@@ -34,3 +34,7 @@
 	path = home/.vim/bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
 	branch = master
+[submodule "home/.vim/bundle/airline"]
+	path = home/.vim/bundle/airline
+	url = https://github.com/bling/vim-airline.git
+	branch = master
